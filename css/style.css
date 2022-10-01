@@ -1,58 +1,79 @@
-*{
+* {
     margin: 0px;
 }
 
+body {
+    background-color: rgb(50, 49, 57);
+}
 
-.navbar{ /*barre de navigation*/
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.navbar {
+    /*barre de navigation*/
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     text-decoration: none;
-    background-color: aqua;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(79, 78, 91);
 }
 
 
-.navbar>p{ /*bouttons de la bare de navigation*/
+.butonnav {
+    /*bouttons de la bare de navigation*/
     font-size: 40px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.navbar>p:hover{
-    background-color: blue;
-}
-
-
-.navbar>p>a{ /*texte des boutons te la bar de navigation*/
+    height: 100%;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
-.projet{
-    margin-left:auto;
+.butonnav:hover {
+    background-color: rgb(52, 51, 61);
+    color: rgb(224, 224, 224);
+    transition: 0.2s;
+}
+
+.projet {
+    margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 40%;
-
 }
 
-.projet>h2{
-    font-size: 30px;
+.proj-titre {
+    font-size: 40px;
 }
 
-.projet>p{
+.proj-text {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 40px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.projet>img{
+.proj-image {
     height: 360px;
     width: 640px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.projet>a{
+.fichier {
+    margin-top: 10px;
     margin-left: 40px;
-    font-size: 20px;
+    background-color: aqua;
+    height: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
 }
