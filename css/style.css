@@ -6,10 +6,13 @@ body {
     background-color: rgb(50, 49, 57);
 }
 
-h1 {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 50px;
+.titre-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 90px;
+    color: rgb(234, 231, 231);
 }
 
 .navbar {
@@ -20,7 +23,7 @@ h1 {
     justify-content: center;
     height: 80px;
     align-items: center;
-    background-color: rgb(79, 78, 91);
+    background-color: rgb(92, 90, 106);
 }
 
 
@@ -42,22 +45,39 @@ h1 {
     transition: 0.2s;
 }
 
-.projet {
+.titre-categories{
+    font-size: 40px;
+    color: rgb(244, 235, 235);
+}
+
+.text-categories{
+    font-size: 25px;
+    color: rgb(224, 224, 224);
+}
+
+.contenu-projet {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+    background-color: rgb(63, 62, 73);
+
 }
 
 .proj-titre {
     font-size: 40px;
+    margin-left: 20px;
+    color: rgb(244, 235, 235);
 }
 
 .proj-text {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-size: 25px;
+    color: rgb(224, 224, 224);
 }
 
 .proj-image {
@@ -68,11 +88,16 @@ h1 {
     margin-right: auto;
 }
 
-.fichier {
+
+.reference {
+    /*bouttons de la bare de navigation*/
+    font-size: 40px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 500px;
+    background-color: rgb(15, 53, 206);
     text-decoration: none;
-    font-size: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(0, 67, 160);
-    color: rgb(224, 224, 224);
+    color: rgb(227, 227, 227);
 }
