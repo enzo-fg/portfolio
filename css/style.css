@@ -13,6 +13,17 @@ body {
     height: 300px;
     font-size: 90px;
     color: rgb(234, 231, 231);
+    background-size: cover;
+    background-image: url(../images/titre-background.jpg);
+}
+
+.titre-secondaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 90px;
+    color: rgb(234, 231, 231);
 }
 
 .navbar {
@@ -46,14 +57,47 @@ body {
 }
 
 .titre-categories{
-    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 60px;
     color: rgb(244, 235, 235);
 }
 
 .text-categories{
+    display: flex;
+    justify-content: center;
     font-size: 25px;
-    color: rgb(224, 224, 224);
+    color: rgb(224, 224, 224);   
 }
+
+.text-presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liste-presentation{
+    color: rgb(224, 224, 224);   
+    font-size: 40px;
+    list-style: none;
+    padding-left: 100px;
+}
+
+.liste-langages{
+    color: rgb(224, 224, 224);   
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    height: 140px;
+    padding-left: 100px;
+}
+
+
 
 .contenu-projet {
     margin-left: auto;
@@ -91,13 +135,17 @@ body {
 
 .reference {
     /*bouttons de la bare de navigation*/
-    font-size: 40px;
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 50px;
-    width: 500px;
-    background-color: rgb(15, 53, 206);
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 40px;
     text-decoration: none;
+    background-color: rgb(15, 53, 206);
     color: rgb(227, 227, 227);
+    
 }
