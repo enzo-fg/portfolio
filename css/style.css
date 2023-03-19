@@ -6,25 +6,6 @@ body {
     background-color: rgb(50, 49, 57);
 }
 
-.titre-principal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    font-size: 90px;
-    color: rgb(234, 231, 231);
-    background-size: cover;
-    background-image: url(../images/titre-background.jpg);
-}
-
-.titre-secondaire{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    font-size: 90px;
-    color: rgb(234, 231, 231);
-}
 
 .navbar {
     /*barre de navigation*/
@@ -56,7 +37,35 @@ body {
     transition: 0.2s;
 }
 
-.titre-categories{
+.baniere {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../images/titre-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.desc {
+    margin-left: 50px;
+}
+
+.desc>h1 {
+    font-size: 60px;
+    color: rgb(234, 231, 231);
+}
+
+
+.titre-secondaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 90px;
+    color: rgb(234, 231, 231);
+}
+
+.categorie{
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -66,47 +75,48 @@ body {
 }
 
 .text-categories{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: rgb(224, 224, 224);   
-}
-
-.text-presentation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.liste-presentation{
-    color: rgb(224, 224, 224);   
-    font-size: 40px;
-    list-style: none;
-    padding-left: 100px;
-}
-
-.liste-langages{
-    color: rgb(224, 224, 224);   
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 30%;
-    height: 140px;
-    padding-left: 100px;
-}
-
-
-
-.contenu-projet {
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(224, 224, 224);   
+}
+
+.docs{
+    display: flex;
+    justify-content: center;
+}
+
+
+.comp-info{
+    list-style: none;
+    color: rgb(224, 224, 224);   
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comp-info>li{
+    padding: 10px;
+    font-size: 40px;
+    width: 40%;
+}
+
+.contenu-projet {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 60%;
-    background-color: rgb(63, 62, 73);
+    justify-content: center;
+}
 
+.projet {
+    background-color: rgb(63, 62, 73);
+    margin: 15px;
+    width: 35%;
 }
 
 .proj-titre {
@@ -125,8 +135,8 @@ body {
 }
 
 .proj-image {
-    height: 360px;
-    width: 640px;
+    width: 90%;
+    --aspect-ratio: 16 / 9; /* ↔️ is double the ↕️ */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -138,14 +148,14 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    height: fit-content;
+    height: 30px;
     width: fit-content;
     border-radius: 15px;
     margin: 20px;
     padding: 10px;
-    font-size: 40px;
+    font-size: 25px;
     text-decoration: none;
-    background-color: rgb(15, 53, 206);
-    color: rgb(227, 227, 227);
+    background-color: rgb(84, 118, 255);
+    color: rgb(255, 255, 255);
     
 }
